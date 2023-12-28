@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{%block title %} Laptop {% endblock title %}
+{% block content %}
+      <!-- laptop1 -->
+      <div class="laptop1">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-7">
+                  <br>
+                  <div class="laptop1_img">
+                     {%load static%}
+                     <figure><img src="{% static 'images/leptop.jpg' %}" alt="laptop"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="titlepage">
+                     <br>
+                     <h2>laptop</h2>
+                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                     <a class="read_more" href="#">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end laptop1 -->
+
+{% endblock content %}
