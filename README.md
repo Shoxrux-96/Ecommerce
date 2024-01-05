@@ -1,4 +1,5 @@
 Amaliyot o'tash uchun berilgan task
+
 1.Python    2.Django and DRF
 
 1-task. Boshlang’ich so’zlar ro’yxatini tuzing. Misol uchun: "tiger", "tree", "underground", "giraffe", "chair".
